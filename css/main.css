@@ -2,10 +2,67 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 	min-width: 320px;
-	position: relative;
+}
+/*buttons*/
+.my_btn{
+	background-color: #e84545;
+	border: none;
+	text-transform: uppercase;
+}
+.btn_md{
+padding: 10px 30px;
 }
 
-.block{
-background-color: #ccc;
-border: solid #000 1px;
+/*header*/
+
+header{
+	height: 640px;
+	background-image: url("../img/banner.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+nav{
+	height: 94px;
+	line-height: 94px;
+}
+.menu{
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+}
+.menu li a{
+	color:#fff;
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif;
+}
+.menu li a:hover,
+.menu li a:focus{
+	color:#ccc;
+text-decoration: none;
+}
+.top_line{
+	height: 1px;
+	background-color: #ccc; 
+}
+.logo
+{
+padding-top: 35px;
+}
+.title_block{
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.title_block h1{
+	font-style: 50px;
+	margin-bottom: 30px;	
+	font-family:"RalewayBold" sans-serif;
+}
+.title_block p{
+	font-style: 18px;
+	margin-bottom: 50px;
+
 }

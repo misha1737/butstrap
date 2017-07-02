@@ -1,4 +1,14 @@
 @font-face {
+	font-family: "RalewayBold";
+	src: url("../fonts/RalewayBold/RalewayBold.eot");
+	src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+			 url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
 	font-family: "RobotoRegular";
 	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
 	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
@@ -7,3 +17,4 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
