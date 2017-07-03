@@ -7,36 +7,154 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	.team_item{
+		margin-bottom: 30px;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.div_ex{
-		width: 200px;
-		height: 200px;
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
 	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color:#fff;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+	}
+	.menu li{
+		display:block;
+		text-align:center;
+	}
+	.menu li a{
+		display:block;
+	}
+	.menu li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+		.team_item{
+			margin-bottom: 30px;
+		}	
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.div_ex{
-		width: 100px;
-		height: 100px;
-		background-color: #0000ff;
-		margin: 0;
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
 	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color:#fff;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+	}
+	.menu li{
+		display: block;
+		text-align:center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.title_block h1{
+	font-size: 30px;
+	}
+	.title_block p
+	{
+	font-size: 14px;
+	}
+		.team_item{
+			margin-bottom: 30px;
+		}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-	.div_ex{
-		width: 100px;
-		height: 100px;
-		background-color: #0000ff;
-		margin: 0;
+	nav{
+		height: 60px;
+		line-height: 60px;
+		background-color: #2a2e48;
+		position: fixed;
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color:#fff;
+	}
+	.menu_btn span{
+	top: -15px;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+	}
+	.menu li{
+		display:block;
+		text-align:center;
+	}
+	.menu li a{
+		display:block;
+	}
+	.menu li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.title_block h1{
+	font-size: 30px;
+	}
+	.title_block p
+	{
+	font-size: 14px;
+	}
+	.team_item{
+		margin-bottom: 30px;
 	}
 }
+
 
 
 /*==========  Mobile First Method  ==========*/
